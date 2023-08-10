@@ -5,16 +5,16 @@ body{
 }
 
 button {
-    height: 47px;
+    /* height: 47px; */
     border-radius: 33px;
-    padding: 0px 42px;
+    /* padding: 0px 42px; */
     width: 100%;
 }
 
-.navbar-flex ul {
+.navbar-top ul {
     display: flex;
 }
-.navbar-flex li {
+.navbar-top li {
     font-weight: 500;
     font-size: 19px;
     color: black;
@@ -28,7 +28,7 @@ button {
 }
 
 
-.navbar-flex {
+.navbar-top{
     justify-content: space-evenly;
     display: flex;
     align-items: center;
@@ -40,9 +40,7 @@ button {
     width: 100%;
 }
 
-.seprate-div {
-    display: flex;
-}
+
 .homepage {
     color: white;
     background-color: black;
@@ -70,24 +68,27 @@ button {
     width: 50%;
 }
 
-@media  (max-width: 600px) {
+  @media  (max-width: 800px) {
     .container-home-left {
         margin-left: 0px;
-        width: 100%;
+        max-width: 100%;
     }
     .container-home-right {
-        width: 100%;
+        max-width: 100%;
     }
-    .homepage {
-       
-        display: initial;
-    }
-    .navbar-flex {
+   
+    .navbar-top{
         display: initial;
       
+    }
+    .homepage {
+      
+        display: initial;
     }
     button {
        padding: 0px;
     }
+   
+  
   }
 
