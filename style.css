@@ -40,7 +40,11 @@ button {
     width: 100%;
 }
 
-
+.navbar-side {
+    height: 90px;
+    width: 100%;
+    background-color: white;
+}
 .homepage {
     color: white;
     background-color: black;
@@ -67,6 +71,17 @@ button {
 .container-home-right {
     width: 50%;
 }
+.full-page-container {
+    background-color: black;
+    padding: 28px;
+}
+.search h2 {
+    color: #565454;
+    font-size: 18px;
+    padding: 5px;
+    border-radius: 21px;
+    border: 1px solid;
+}
 
   @media  (max-width: 800px) {
     .container-home-left {
@@ -89,6 +104,8 @@ button {
        padding: 0px;
     }
    
-  
+    .navbar-side {
+        height: 200px;
+       
   }
 
